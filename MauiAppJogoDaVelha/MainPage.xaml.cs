@@ -110,51 +110,51 @@
             if (btn10.Text == "O" && btn11.Text == "O" && btn12.Text == "O")
             {
                 DisplayAlert("Parabéns", "O O ganhou!", "OK");
-                Zerar();
+          //      Zerar();
             }
             //Verificando se o O ganhou na segunda linha
-            if (btn20.Text == "O" && btn21.Text == "O" && btn22.Text == "0")
+            if (btn20.Text == "O" && btn21.Text == "O" && btn22.Text == "O")
             {
                 DisplayAlert("Parabéns", "O O ganhou!", "OK");
-                Zerar();
+         //       Zerar();
             }
             //Verificando se o O ganhou na terceira linha
             if (btn30.Text == "O" && btn31.Text == "O" && btn32.Text == "O")
             {
                 DisplayAlert("Parabéns", "O O ganhou!", "OK");
-                Zerar();
+          //      Zerar();
             }
 
             //Verificando se o O ganhou na primeira coluna
             if (btn10.Text == "O" && btn20.Text == "O" && btn30.Text == "O")
             {
                 DisplayAlert("Parabéns", "O O ganhou!", "OK");
-                Zerar();
+          //      Zerar();
             }
             //Verificando se o O ganhou na segunda coluna
             if (btn11.Text == "O" && btn21.Text == "O" && btn31.Text == "O")
             {
                 DisplayAlert("Parabéns", "O O ganhou!", "OK");
-                Zerar();
+           //     Zerar();
             }
             //Verificando se o O ganhou na terceira coluna
             if (btn12.Text == "O" && btn22.Text == "O" && btn32.Text == "O")
             {
                 DisplayAlert("Parabéns", "O O ganhou!", "OK");
-                Zerar();
+            //    Zerar();
             }
 
             //Verificando se o O ganhou para \
             if (btn10.Text == "O" && btn21.Text == "O" && btn32.Text == "O")
             {
                 DisplayAlert("Parabéns", "O O ganhou!", "OK");
-                Zerar();
+            //    Zerar();
             }
             //Verificando se o O ganhou para /
             if (btn12.Text == "O" && btn21.Text == "O" && btn30.Text == "O")
             {
                 DisplayAlert("Parabéns!", "O O ganhou!", "OK");
-                Zerar();
+             //   Zerar();
             }
 
             VerificarVelha();
