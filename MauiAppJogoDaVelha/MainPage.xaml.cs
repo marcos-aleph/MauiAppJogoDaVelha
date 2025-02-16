@@ -43,11 +43,13 @@
             if (vez == "X")
             {
                 btn.Text = "X";
+                Reiniciar.Text = "Vez do O\n\n\tReiniciar";
                 vez = "O";
             }
             else
             {
                 btn.Text = "O";
+                Reiniciar.Text = "Vez do X\n\n\tReiniciar";
                 vez = "X";
             }
 
@@ -179,8 +181,11 @@
         }
 
         private void Reiniciar_Clicked(object sender, EventArgs e)
-        {
-            Zerar();
+        { 
+                Button btn = (Button)sender;
+
+                Zerar();
+            
         }
     } 
 
